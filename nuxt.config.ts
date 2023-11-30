@@ -1,7 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  modules: ["nuxt-api-party"],
+  modules: ["nuxt-api-party", "@nuxt/ui"],
 
   apiParty: {
     endpoints: {
